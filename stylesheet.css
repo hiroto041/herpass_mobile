@@ -1,0 +1,585 @@
+body {
+    margin: 0;
+    width: 1512px;
+    font-family: "Hiragino Mincho Pro", "ヒラギノ明朝 Pro", serif;
+      
+}
+
+header {
+    width: 1512px;
+    height: 73.7px;
+    background-color: white;
+    display: flex;
+}
+
+header img {
+    width: 297px;
+    height: 132px;
+    margin-top: -24px;
+    margin-left: -8px;
+    margin-right: 726px;
+}
+
+.header_right {
+    text-align: right;
+}
+
+.number {
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-size: 14.4px;
+    font-weight: bold;
+    color: #585959;
+}
+
+.header_txt {
+    margin-top: 3px;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+.highlight-pink {
+    font-size: 21.6px;
+    color: #FC3F82;
+}
+.highlight-black {
+    font-size: 21.6px;
+    color: #585959;
+}
+.small-black {
+    font-size: 20.16px;
+    color: #585959;
+}
+
+main {
+    width: 1512px;
+    height: 637px;
+    background-image: url(img/デスクトップ版背景.png);
+    background-size: cover;
+    display: flex;
+}
+
+.title_woman {
+    position: relative;
+    top: 74px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 228px;
+    width: 222px;
+    height: 58px;
+    background-color: #A9C447;
+    color: white;
+    font-size: 43px;
+    font-weight: bold;
+    letter-spacing: 6px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; /
+}
+
+.title_tokka {
+    position: relative;
+    top: 128px;
+    width: 404px;
+    height: 81px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: white;
+    color: #5C5C5C;
+    font-size: 53.75px;
+    font-weight: bold;
+    margin-left: 228px;
+    letter-spacing: 4px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; /
+}
+
+.title_agent {
+    position: relative;
+    top: 144px;
+    width: 517px;
+    height: 89px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: white;
+    color: #5C5C5C;
+    font-size: 58px;
+    font-weight: bold;
+    margin-left: 228px;
+    letter-spacing: 4px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.three_sokyu {
+    position: relative;
+    top: 190px;
+    display: flex;
+    margin-left: 228px;
+}
+
+.sokyu_image {
+    width: 150px;
+    height: 150px;
+    background-image: url(img/トップ訴求背景.png);
+    background-size: cover;
+    margin-right: 18px;
+}
+
+.sokyu_image p {
+    color: white;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-shadow: 1px 1px 2px rgba(49, 49, 49, 0.5);
+}
+
+.sokyu1_1 {
+    font-size: 28px;
+    position: relative;
+    top: 37px;
+}
+
+.sokyu1_2 {
+    font-size: 21.5px;
+    position: relative;
+    top: 35px;
+}
+
+.sokyu2_1 {
+    font-size: 28px;
+    position: relative;
+    top: 37px;
+}
+
+.sokyu2_2 {
+    font-size: 23.65px;
+    position: relative;
+    top: 34px;
+}
+
+.sokyu3_1 {
+    font-size: 15.05px;
+    position: relative;
+    top: 32px;
+}
+
+.sokyu3_2_1 {
+    font-size: 40px;
+    position: relative;
+    top: 23px;
+    margin-right: 2px;
+}
+.sokyu3_2_2 {
+    font-size: 19.35;
+    position: relative;
+    top: 21px;
+}
+
+.sokyu3_3 {
+    font-size: 15.05px;
+    position: relative;
+    top: 16px;
+}
+
+.right_content {
+    margin-left: 70px;
+}
+
+.highlight-black_2 {
+    color: #5C5C5C;
+    font-size: 25.8px;
+    font-weight: bold;
+}
+
+.highlight-black_3 {
+    color: #5C5C5C;
+    font-size: 21.5px;
+    font-weight: bold;
+}
+
+.highlight-pink_2 {
+    color: #FC3F82;
+    font-size: 25.8px;
+    font-weight: bold;
+}
+
+.mazuha {
+    margin-top: 70px;
+    margin-bottom: 4px;
+
+}
+
+
+
+iframe {
+    border: 1.5px solid #5C5C5C;
+    border-radius: 4px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #F7F7F8;
+    width: 1512px;
+    height: 278px;
+}
+
+.copyright {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #7b7b7b;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: lighter;
+    font-size: 11px;
+    text-align: center;
+    position: relative;
+    top: 90px;
+}
+
+.footer_low {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    position: relative;
+    top: 100px;
+}
+
+.service-terms {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-right: 1px solid #5C5C5C;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.service-terms a {
+    color: #585959;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.polcy {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-right: 1px solid #5C5C5C;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.polcy a {
+    color: #585959;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.comp {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.comp a {
+    color: #585959;
+    font-size: 14px;
+    text-decoration: none;   
+}
+
+@media screen and (max-width: 768px) {
+
+   body {
+    margin: 0;
+    width: 768px;
+    font-family: "Hiragino Mincho Pro", "ヒラギノ明朝 Pro", serif;
+      
+}
+
+header {
+    width: 768px;
+    height: 110px;
+    background-color: white;
+    display: flex;
+}
+
+header img {
+    width: 304px;
+    height: 134px;
+    margin-top: -10px;
+    margin-left: -40px;
+    margin-right: 0px;
+}
+
+.header_right {
+    text-align: right;
+}
+
+.number {
+    margin-top: 0px;
+    margin-bottom: 0;
+    font-size: 17.1px;
+    font-weight: bold;
+    color: #585959;
+}
+
+.header_txt {
+    margin-top: 3px;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+.highlight-pink {
+    font-size: 21.6px;
+    color: #FC3F82;
+}
+.highlight-black {
+    font-size: 21.6px;
+    color: #585959;
+}
+.small-black {
+    font-size: 20.16px;
+    color: #585959;
+}
+
+main {
+    width: 768px;
+    height: 439px;
+    background-image: url(img/モバイル版背景.png);
+    background-size: cover;
+    display: flex;
+}
+
+.title_woman {
+    position: relative;
+    top: 74px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 228px;
+    width: 222px;
+    height: 58px;
+    background-color: #A9C447;
+    color: white;
+    font-size: 43px;
+    font-weight: bold;
+    letter-spacing: 6px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; /
+}
+
+.title_tokka {
+    position: relative;
+    top: 128px;
+    width: 404px;
+    height: 81px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: white;
+    color: #5C5C5C;
+    font-size: 53.75px;
+    font-weight: bold;
+    margin-left: 228px;
+    letter-spacing: 4px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; /
+}
+
+.title_agent {
+    position: relative;
+    top: 144px;
+    width: 517px;
+    height: 89px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: white;
+    color: #5C5C5C;
+    font-size: 58px;
+    font-weight: bold;
+    margin-left: 228px;
+    letter-spacing: 4px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.three_sokyu {
+    position: relative;
+    top: 190px;
+    display: flex;
+    margin-left: 228px;
+    display: none;
+}
+
+.sokyu_image {
+    width: 150px;
+    height: 150px;
+    background-image: url(img/トップ訴求背景.png);
+    background-size: cover;
+    margin-right: 18px;
+}
+
+.sokyu_image p {
+    color: white;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-shadow: 1px 1px 2px rgba(49, 49, 49, 0.5);
+}
+
+.sokyu1_1 {
+    font-size: 28px;
+    position: relative;
+    top: 37px;
+}
+
+.sokyu1_2 {
+    font-size: 21.5px;
+    position: relative;
+    top: 35px;
+}
+
+.sokyu2_1 {
+    font-size: 28px;
+    position: relative;
+    top: 37px;
+}
+
+.sokyu2_2 {
+    font-size: 23.65px;
+    position: relative;
+    top: 34px;
+}
+
+.sokyu3_1 {
+    font-size: 15.05px;
+    position: relative;
+    top: 32px;
+}
+
+.sokyu3_2_1 {
+    font-size: 40px;
+    position: relative;
+    top: 23px;
+    margin-right: 2px;
+}
+.sokyu3_2_2 {
+    font-size: 19.35;
+    position: relative;
+    top: 21px;
+}
+
+.sokyu3_3 {
+    font-size: 15.05px;
+    position: relative;
+    top: 16px;
+}
+
+.right_content {
+    margin-left: 70px;
+    display: none;
+}
+
+.highlight-black_2 {
+    color: #5C5C5C;
+    font-size: 25.8px;
+    font-weight: bold;
+}
+
+.highlight-black_3 {
+    color: #5C5C5C;
+    font-size: 21.5px;
+    font-weight: bold;
+}
+
+.highlight-pink_2 {
+    color: #FC3F82;
+    font-size: 25.8px;
+    font-weight: bold;
+}
+
+
+.mazuha {
+    margin-top: 70px;
+    margin-bottom: 4px;
+
+}
+
+
+iframe {
+    border: 1.5px solid #5C5C5C;
+    border-radius: 4px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #F7F7F8;
+    width: 768px;
+    height: 278px;
+}
+
+.copyright {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #7b7b7b;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: lighter;
+    font-size: 11px;
+    text-align: center;
+    position: relative;
+    top: 90px;
+}
+
+.footer_low {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    position: relative;
+    top: 100px;
+}
+
+.service-terms {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-right: 1px solid #5C5C5C;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.service-terms a {
+    color: #585959;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.polcy {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-right: 1px solid #5C5C5C;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.polcy a {
+    color: #585959;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.comp {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.comp a {
+    color: #585959;
+    font-size: 14px;
+    text-decoration: none;   
+}
+
+}
+
+
