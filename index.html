@@ -1,0 +1,76 @@
+<html lang="jp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HerPass</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+      
+</head>
+<body>
+    <header>
+        <img src="img/HerPassロゴ.png" alt="">
+        <div class="header_right">
+            <p class="number">厚生労働大臣許可 13-ユ-307882</p>
+            <p id="responsive-text" class="header_txt">
+                <span class="highlight-pink">高収入/リモート</span><span class="highlight-black">優良求人</span><span class="small-black">を</span><span class="highlight-pink">会員限定</span><span class="small-black">で</span><span class="highlight-black">ご紹介!</span>
+            </p>
+            <script>
+                function updateText() {
+                    var screenWidth = window.innerWidth;
+                    var textElement = document.getElementById('responsive-text');
+        
+                    if (screenWidth <= 768) {
+                        textElement.innerHTML = '<span class="highlight-black_2">\\</span><span class="highlight-black_3">まずは</span><span class="highlight-pink_2">無料キャリア相談</span><span class="highlight-black_3">から</span><span class="highlight-black_2">/</span>';
+                    } else {
+                        textElement.innerHTML = '<span class="highlight-pink">高収入/リモート</span><span class="highlight-black">優良求人</span><span class="small-black">を</span><span class="highlight-pink">会員限定</span><span class="small-black">で</span><span class="highlight-black">ご紹介!</span>';
+                    }
+                }
+                updateText();
+                window.addEventListener('resize', updateText);
+            </script>
+        </div>
+    </header>
+    <main>
+        <div class="left_content">
+            <p class="title_woman">女性限定</p>
+            <p class="title_tokka">経理/財務特化</p>
+            <p class="title_agent">転職エージェント</p>
+            <div class="three_sokyu">
+                <div class="sokyu_image sokyu1">
+                    <p class="sokyu1_1">経理×女性</p>
+                    <p class="sokyu1_2">専門サポート</p>
+                </div>
+                <div class="sokyu_image sokyu2">
+                    <p class="sokyu2_1">非公開求人</p>
+                    <p class="sokyu2_2">多数！</p>
+                </div>
+                <div class="sokyu_image sokyu3">
+                    <p class="sokyu3_1">キャリア支援数</p>
+                    <p>
+                        <span class="sokyu3_2_1">5,000</span><span class="sokyu3_2_2">名</span>
+                    <p class="sokyu3_3">以上</p>
+                </div>
+            </div> 
+        </div>
+        <div class="right_content">
+            <p class="mazuha"><span class="highlight-black_2">\</span><span class="highlight-black_3">まずは</span><span class="highlight-pink_2">無料キャリア相談</span><span class="highlight-black_3">から</span><span class="highlight-black_2">/</span></p>
+            <iframe src="https://0b3nc6fgfev.typeform.com/to/MrHQrHS9#source=xxxxx" style="width:500px; height:400px;"></iframe>
+        </div>  
+    </main>
+    <footer>
+        <p class="copyright">Copyright © 2024 HerPass.  All rights reserved.</p>
+        <div class="footer_low">
+            <p class="service-terms">
+                <a href="https://lp.her-pass.jp/service-terms">利用規約</a>
+            </p>
+            <p class="polcy">
+                <a href="https://aurora.tokyo/profile/privacyhandle/" target="_blank">プライバシーポリシー</a>
+            </p>
+            <p class="comp">
+                <a href="https://aurora.tokyo/" target="_blank">会社概要</a>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
